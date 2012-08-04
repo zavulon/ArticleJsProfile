@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <title>Сортировщик цветов</title> 
+        
+        <!--<link rel="stylesheet" href="rel.css" type="text/css" media="screen"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" charset="utf-8"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="colors2.js" type="text/javascript" charset="utf-8"></script> 
+        
+        
+        <style type="text/css" media="screen"> 
+            #colors {
+                line-height: 25px;
+                width: 500px;
+                margin: 50px auto;
+            }
+            
+            div.colorBlock {
+                width: 25px;
+                height: 25px;
+                -moz-border-radius: 12.5px;
+                -webkit-border-radius: 12.5px;
+                border-radius: 12.5px;
+                display: inline-block;
+                margin: 10px;
+                opacity: 0.9;
+            }
+        </style> 
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-33886925-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head> 
+    <body> 
+        <a href="http://github.com/zavulon/ArticleJsProfile" id="forkme"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+        <h1 style="margin: 25px auto; width: 500px; text-align: center;">Перетяните цвета для их сортировки</h1>
+        <div id="colors"></div>
+        
+        <p style="margin: 12px auto; width: 450px; text-align: center;">
+            <button id="clickMe" onclick="testColorSorter();">Нажми меня</button>
+        </p>
+        
+        <p style="margin: 0 auto; width: 450px;">
+			Первый шаг - изолировать сортировщик цветов от загрузки страницы, поэтому запускаем его при нажатии кнопки.
+        </p>
+        
+        <p style="margin: 0 auto; width: 450px; margin-top: 1.5em">
+            Перейти к <a href="index3.htm">версии 3</a> или вернуться к <a href="http://habrahabr.ru/">статье "Профилирование JavaScript с Chrome Developer Tools"</a>.
+        </p>
+        
+        
+    </body> 
+</html> 
+
