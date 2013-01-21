@@ -1,7 +1,7 @@
 Статья "Профилирование JavaScript с Chrome Developer Tools"
 ==================================================
 
-Этот проект содержит примеры для [статьи на Habrahabr.ru](http://habrahabr.ru/).
+Этот проект содержит примеры для [статьи на Habrahabr.ru](http://habrahabr.ru/post/149053/).
 Она является переводом статьи [JavaScript Profiling With The Chrome Developer Tools](http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools).
 
 Эта статья показывает 6 версий приложения, которое сортирует цветные круги. 
